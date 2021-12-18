@@ -1,2 +1,25 @@
 .buttonRow {
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 16px 0;
 }
+
+::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: hsl(195deg, 20%, 86%); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(195deg, 20%, 35%); 
+  }
